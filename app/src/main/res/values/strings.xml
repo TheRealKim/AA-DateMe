@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name" translatable="false">DateMe</string>
+    <string name="name_input">Name</string>
+    <!-- Age input -->
+    <string name="age">Age</string>
+    <!-- Gender input -->
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="other">Other</string>
+    <!-- Question about concert -->
+    <string name="concertquestion">Which concert would you rather go to?</string>
+    <string name="arcticMonkeys" translatable="false">Arctic Monkeys</string>
+    <string name="justinBieber" translatable="false">Justin Bieber</string>
+    <string name="katyPerry" translatable="false">Katy Perry</string>
+    <string name="theWeeknd" translatable="false">The Weeknd</string>
+    <!-- Question about first date -->
+    <string name="datequestion">What is your idea of a perfect first date?</string>
+    <string name="coffee">Casual cup of coffee</string>
+    <string name="netflix">Netflix &amp; Chill</string>
+    <string name="dinner">Dinner at a fancy restaurant</string>
+    <string name="pool">Playing pool at a bar</string>
+    <!-- Question about household chores -->
+    <string name="chorequestion">Which household chore do you least mind doing?</string>
+    <string name="cooking">Cooking</string>
+    <string name="vacuum">Vacuuming</string>
+    <string name="dust">Dust Sweeping</string>
+    <string name="iron">Ironing</string>
+    <!-- Question about pets -->
+    <string name="petquestion">Which pet would you prefer?</string>
+    <string name="fish">Fish</string>
+    <string name="dog">Dog</string>
+    <string name="snake">Snake</string>
+    <string name="cat">Cat</string>
+    <!--Submit button -->
+    <string name="submit">Submit</string>
+    <!-- Toast messages -->
+    <string name="tooYoung">Please leave.\nI do not want to go to jail.</string>
+    <string name="tooOld">This is getting kinda creepy ...</string>
+    <string name="reactMale">Just leave ...</string>
+    <!-- Toast message result -->
+    <string name="hi">Hi</string>
+    <string name="sorry">Sorry</string>
+    <string name="scoresuccess">You scored</string>
+    <string name="scorefailure">You only scored</string>
+    <string name="max" translatable="false">/16</string>
+    <string name="meet">Let\'s meet up?</string>
+    <string name="leave">Please go away.</string>
+</resources>

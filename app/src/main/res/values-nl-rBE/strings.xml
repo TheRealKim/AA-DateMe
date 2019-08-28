@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">DateMe</string>
+    <string name="name_input">Naam</string>
+    <!-- Age input -->
+    <string name="age">Leeftijd</string>
+    <!-- Gender input -->
+    <string name="gender">Geslacht</string>
+    <string name="female">Vrouw</string>
+    <string name="male">Man</string>
+    <string name="other">Overig</string>
+    <!-- Question about concert -->
+    <string name="concertquestion">Welk concert zou je het liefste gaan zien?</string>
+    <string name="arcticMonkeys" translatable="false">Arctic Monkeys</string>
+    <string name="justinBieber" translatable="false">Justin Bieber</string>
+    <string name="katyPerry" translatable="false">Katy Perry</string>
+    <string name="theWeeknd" translatable="false">The Weeknd</string>
+    <!-- Question about first date -->
+    <string name="datequestion">Wat zou je perfecte eerste date zijn?</string>
+    <string name="coffee">Gezellig een kopje koffie</string>
+    <string name="netflix">Netflix &amp; Chillen</string>
+    <string name="dinner">Dineren in een chique restaurant</string>
+    <string name="pool">Biljarten in een bar</string>
+    <!-- Question about household chores -->
+    <string name="chorequestion">Welke huishoudelijke taak vind je het minst vervelend?</string>
+    <string name="cooking">Koken</string>
+    <string name="vacuum">Stofzuigen</string>
+    <string name="dust">Afstoffen</string>
+    <string name="iron">Strijken</string>
+    <!-- Question about pets -->
+    <string name="petquestion">Welk huisdier verkies je?</string>
+    <string name="fish">Vissen</string>
+    <string name="dog">Hond</string>
+    <string name="snake">Slang</string>
+    <string name="cat">Kat</string>
+    <!--Submit button -->
+    <string name="submit">Klaar!</string>
+    <!-- Toast messages -->
+    <string name="tooYoung">Vertrek.\nIk wil niet naar de gevangenis.</string>
+    <string name="tooOld">Dit wordt een beetje creepy ...</string>
+    <string name="reactMale">Vertrek gewoon ...</string>
+    <!-- Toast message result -->
+    <string name="hi">Hey</string>
+    <string name="sorry">Sorry</string>
+    <string name="scoresuccess">Jouw score is</string>
+    <string name="scorefailure">Jouw score is helaas maar</string>
+    <string name="max" translatable="false">/16</string>
+    <string name="meet">Laten we afspreken?</string>
+    <string name="leave">Vertrek alsjeblieft.</string>
+</resources>

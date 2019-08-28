@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical">
+
+        <!-- Name input -->
+        <EditText
+            android:id="@+id/person_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/name_input"
+            android:maxLines="1"
+            android:inputType="textCapWords"
+            android:cursorVisible="false"/>
+
+        <!--Age input -->
+        <TextView
+            style="@style/Question"
+            android:text="@string/age" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/decrease_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:onClick="decreaseAge"/>
+            <TextView
+                android:id="@+id/age_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="25" />
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:onClick="increaseAge"/>
+        </LinearLayout>
+
+        <!-- Gender input -->
+        <TextView
+            style="@style/Question"
+            android:text="@string/gender"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/female"
+                android:text="@string/female"
+                style="@style/RadioButton" />
+            <RadioButton
+                android:id="@+id/male"
+                android:text="@string/male"
+                android:onClick="reactMale"
+                style="@style/RadioButton" />
+            <RadioButton
+                android:id="@+id/other"
+                android:text="@string/other"
+                style="@style/RadioButton"/>
+            <!--android:onClick="onCheckboxClicked"/>-->
+        </RadioGroup>
+
+        <!-- Concert question -->
+        <TextView
+            style="@style/Question"
+            android:text="@string/concertquestion"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radio_concert"
+            style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/articmonkeys"
+                android:text="@string/arcticMonkeys"
+                style="@style/RadioButton" />
+            <RadioButton
+                android:id="@+id/justinbieber"
+                android:text="@string/justinBieber"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/katyperry"
+                android:text="@string/katyPerry"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/theweeknd"
+                android:text="@string/theWeeknd"
+                style="@style/RadioButton"/>
+        </RadioGroup>
+
+        <!-- First date question -->
+        <TextView
+            style="@style/Question"
+            android:text="@string/datequestion"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radio_date"
+            style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/coffee"
+                android:text="@string/coffee"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/netflix"
+                android:text="@string/netflix"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/dinner"
+                android:text="@string/dinner"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/pool"
+                android:text="@string/pool"
+                style="@style/RadioButton"/>
+        </RadioGroup>
+
+        <!-- Household chores question -->
+        <TextView
+            style="@style/Question"
+            android:text="@string/chorequestion"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radio_chore"
+            style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/cooking"
+                android:text="@string/cooking"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/vacuuming"
+                android:text="@string/vacuum"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/dust"
+                android:text="@string/dust"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/ironing"
+                android:text="@string/iron"
+                style="@style/RadioButton"/>
+        </RadioGroup>
+
+        <!-- Pets question -->
+        <TextView
+            style="@style/Question"
+            android:text="@string/petquestion"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radio_pets"
+            style="@style/RadioGroup">
+            <RadioButton
+                android:id="@+id/fish"
+                android:text="@string/fish"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/dog"
+                android:text="@string/dog"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/snake"
+                android:text="@string/snake"
+                style="@style/RadioButton"/>
+            <RadioButton
+                android:id="@+id/cat"
+                android:text="@string/cat"
+                style="@style/RadioButton"/>
+        </RadioGroup>
+
+        <!-- Final submit button -->
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/submit"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submit"/>
+    </LinearLayout>
+</ScrollView>
